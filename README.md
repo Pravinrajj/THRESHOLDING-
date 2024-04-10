@@ -19,8 +19,8 @@ Use Adaptive thresholding to segment the image.
 Use Otsu's method to segment the image and display the results.
 ## Program
 ```
-DEVELOPED BY: Santhosh U
-REGISTER NO: 212222240092
+DEVELOPED BY: PRAVINRAJJ G.K
+REGISTER NO: 212222240080
 ```
 ### Load the necessary packages
 ```
@@ -30,7 +30,7 @@ import cv2
 ```
 ### Read the Image and convert to grayscale
 ```
-image = cv2.imread("dark.jpeg",1)
+image = cv2.imread("LOKI.png",1)
 image = cv2.cvtColor(image,cv2.COLOR_BGR2RGB)
 image_gray = cv2.imread("dark.jpeg",0)
 ```
